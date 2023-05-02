@@ -1,0 +1,49 @@
+.user-oitem {
+  margin: 0;
+  width: auto;
+  min-width: 17.5rem;
+}
+
+.user-oitem a {
+  display: flex;
+  
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  background: #292929;
+}
+
+.user-oitem a:hover,
+.user-oitem a:active {
+  background: #41349d;
+}
+
+.user-oitem__content {
+  padding: 0;
+}
+
+.user-oitem__image {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.user-oitem__info h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #ffd900;
+}
+
+.user-oitem:hover h2,
+.user-oitem:active h2,
+.user-oitem:hover h3,
+.user-oitem:active h3 {
+  color: #292929;
+}
+
+.user-oitem__info h3 {
+  margin: 0;
+}

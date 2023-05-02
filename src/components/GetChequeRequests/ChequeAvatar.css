@@ -1,0 +1,15 @@
+.avaootar {
+  width: 100%;
+  height: 100%;
+  display: flex; 
+  margin-left: 0px;
+}
+
+.avaootar img {
+ 
+  border-radius: 10%;
+  width: 60%;
+  height:55%;
+ 
+  margin-top:0px;
+}
